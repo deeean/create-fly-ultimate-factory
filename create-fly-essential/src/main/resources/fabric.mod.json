@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "create_fly_essential",
+  "version": "${version}",
+  "name": "Create: Fly Essential",
+  "description": "Essential addon for Create Fly - Deployer experience nuggets and more",
+  "authors": ["deeean"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.deeean.createflyessential.CreateFlyEssential"]
+  },
+  "mixins": [
+    "create_fly_essential.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": ">=1.21.11- <1.21.12-",
+    "java": ">=21",
+    "create": ">=6.0.8"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "fluid_ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 27000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "ingredients": ["create:zinc_nugget", "create:zinc_nugget", "create:zinc_nugget", "create:zinc_nugget", "minecraft:gravel"],
+  "results": [
+    {
+      "id": "create:asurine"
+    }
+  ]
+}

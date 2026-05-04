@@ -1,0 +1,17 @@
+{
+  "type": "create:crushing",
+  "ingredient": [
+    "minecraft:tube_coral_block",
+    "minecraft:brain_coral_block",
+    "minecraft:bubble_coral_block",
+    "minecraft:fire_coral_block",
+    "minecraft:horn_coral_block"
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.02,
+      "id": "minecraft:heart_of_the_sea"
+    }
+  ]
+}

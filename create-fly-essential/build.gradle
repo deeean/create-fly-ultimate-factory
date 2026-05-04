@@ -1,0 +1,42 @@
+plugins {
+    id "fabric-loom" version "${loom_version}"
+}
+
+version = "${ce_mod_version}+${minecraft_version}+${create_version}"
+
+base {
+    archivesName = project.ce_archives_base_name
+}
+
+repositories {
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${loader_version}"
+
+    // Create Fly (Fabric port) - noaw jar (intermediary, same as Mojang package names)
+    modCompileOnly files('libs/create-fly-noaw-6.0.8.jar')
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": inputs.properties.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}

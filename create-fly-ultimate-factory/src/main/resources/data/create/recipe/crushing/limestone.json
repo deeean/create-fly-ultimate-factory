@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredient": "create:limestone",
+  "processing_time": 350,
+  "results": [
+    {
+      "id": "minecraft:quartz"
+    },
+    {
+      "id": "minecraft:lapis_lazuli"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "create:splashing",
+  "ingredient": "minecraft:packed_ice",
+  "results": [
+    {
+      "id": "minecraft:blue_ice"
+    }
+  ]
+}

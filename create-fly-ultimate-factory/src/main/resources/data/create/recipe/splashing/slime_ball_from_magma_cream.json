@@ -1,0 +1,9 @@
+{
+  "type": "create:splashing",
+  "ingredient": "minecraft:magma_cream",
+  "results": [
+    {
+      "id": "minecraft:slime_ball"
+    }
+  ]
+}

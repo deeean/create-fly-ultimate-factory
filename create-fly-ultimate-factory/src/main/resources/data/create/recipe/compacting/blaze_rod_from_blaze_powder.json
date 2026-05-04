@@ -1,0 +1,9 @@
+{
+  "type": "create:compacting",
+  "ingredients": ["minecraft:blaze_powder", "minecraft:blaze_powder", "minecraft:blaze_powder", "minecraft:blaze_powder"],
+  "results": [
+    {
+      "id": "minecraft:blaze_rod"
+    }
+  ]
+}

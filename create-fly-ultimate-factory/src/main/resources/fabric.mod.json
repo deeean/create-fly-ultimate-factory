@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "create_fly_ultimate_factory",
+  "version": "${version}",
+  "name": "Create: Ultimate Factory Fly",
+  "description": "Custom recipe addon for Create Fly - adds compacting, mixing, haunting, splashing, and crushing recipes",
+  "authors": [
+    "deeean"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.deeean.createflyultimatefactory.CreateFlyUltimateFactory"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": ">=1.21.11- <1.21.12-",
+    "java": ">=21",
+    "create": ">=6.0.8"
+  }
+}

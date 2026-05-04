@@ -1,0 +1,11 @@
+{
+  "type": "create:crushing",
+  "ingredient": "minecraft:soul_sand",
+  "processing_time": 350,
+  "results": [
+    {
+      "count": 2,
+      "id": "minecraft:glowstone_dust"
+    }
+  ]
+}

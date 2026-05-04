@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredient": "minecraft:end_stone",
+  "processing_time": 350,
+  "results": [
+    {
+      "chance": 0.10,
+      "id": "minecraft:ender_pearl"
+    },
+    {
+      "chance": 0.25,
+      "id": "minecraft:end_stone"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "fluid_ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 27000,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "ingredients": ["minecraft:netherrack", "minecraft:flint"],
+  "results": [
+    {
+      "count": 4,
+      "id": "minecraft:redstone"
+    }
+  ]
+}

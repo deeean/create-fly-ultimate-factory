@@ -1,0 +1,10 @@
+{
+  "type": "create:mixing",
+  "ingredients": ["minecraft:coal", "minecraft:blaze_powder"],
+  "results": [
+    {
+      "count": 3,
+      "id": "minecraft:gunpowder"
+    }
+  ]
+}

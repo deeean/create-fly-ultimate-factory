@@ -1,0 +1,9 @@
+{
+  "type": "create:haunting",
+  "ingredient": "minecraft:spider_eye",
+  "results": [
+    {
+      "id": "minecraft:fermented_spider_eye"
+    }
+  ]
+}
